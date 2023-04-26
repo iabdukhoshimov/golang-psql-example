@@ -1,12 +1,12 @@
 package main
 
 import (
-	"backend-templates/golang-psql/config"
-	"backend-templates/golang-psql/grpc"
-	"backend-templates/golang-psql/grpc/client"
-	"backend-templates/golang-psql/pkg/logger"
-	"backend-templates/golang-psql/storage/postgres"
 	"context"
+	"golang-psql/config"
+	"golang-psql/grpc"
+	"golang-psql/grpc/client"
+	"golang-psql/pkg/logger"
+	"golang-psql/storage/postgres"
 	"net"
 
 	"github.com/gin-gonic/gin"

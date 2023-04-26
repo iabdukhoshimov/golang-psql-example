@@ -1,10 +1,10 @@
 package postgres
 
 import (
-	"backend-templates/golang-psql/config"
-	"backend-templates/golang-psql/storage"
 	"context"
 	"fmt"
+	"golang-psql/config"
+	"golang-psql/storage"
 	"log"
 
 	"github.com/jackc/pgx/v5/pgxpool"

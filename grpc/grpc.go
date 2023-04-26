@@ -1,12 +1,12 @@
 package grpc
 
 import (
-	"backend-templates/golang-psql/config"
-	"backend-templates/golang-psql/genproto/book_service"
-	"backend-templates/golang-psql/grpc/client"
-	"backend-templates/golang-psql/grpc/service"
-	"backend-templates/golang-psql/pkg/logger"
-	"backend-templates/golang-psql/storage"
+	"golang-psql/config"
+	"golang-psql/genproto/book_service"
+	"golang-psql/grpc/client"
+	"golang-psql/grpc/service"
+	"golang-psql/pkg/logger"
+	"golang-psql/storage"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"

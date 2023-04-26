@@ -1,11 +1,11 @@
 package postgres
 
 import (
-	"backend-templates/golang-psql/config"
-	"backend-templates/golang-psql/genproto/book_service"
-	"backend-templates/golang-psql/storage"
 	"context"
 	"database/sql"
+	"golang-psql/config"
+	"golang-psql/genproto/book_service"
+	"golang-psql/storage"
 
 	"github.com/google/uuid"
 

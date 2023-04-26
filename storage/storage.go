@@ -1,8 +1,8 @@
 package storage
 
 import (
-	"backend-templates/golang-psql/genproto/book_service"
 	"context"
+	"golang-psql/genproto/book_service"
 )
 
 type StorageI interface {

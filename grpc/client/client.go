@@ -1,8 +1,8 @@
 package client
 
 import (
-	"backend-templates/golang-psql/config"
-	"backend-templates/golang-psql/genproto/book_service"
+	"golang-psql/config"
+	"golang-psql/genproto/book_service"
 
 	"google.golang.org/grpc"
 )

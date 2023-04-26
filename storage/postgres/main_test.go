@@ -8,7 +8,7 @@ import (
 
 	"github.com/jackc/pgx/v5/pgxpool"
 
-	"backend-templates/golang-psql/config"
+	"golang-psql/config"
 )
 
 var (

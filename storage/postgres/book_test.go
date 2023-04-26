@@ -1,10 +1,10 @@
 package postgres
 
 import (
-	"backend-templates/golang-psql/genproto/book_service"
 	"context"
 	"encoding/json"
 	"fmt"
+	"golang-psql/genproto/book_service"
 	"testing"
 
 	"github.com/bxcodec/faker/v4"
