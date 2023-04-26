@@ -1,0 +1,11 @@
+.env
+vendor
+.idea/
+.DS_Store
+
+.hadolint.yaml
+.markdownlint.yaml
+.shellcheckrc
+
+.trunk
+.vscode
